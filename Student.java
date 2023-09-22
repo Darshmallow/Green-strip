@@ -4,7 +4,7 @@ public class Student {
     private String firstName;
     private int ID;
     private ArrayList<Course> courses;
-    static int IDGenerator;
+    static int IDGenerator = 0;
 
     public Student(String n) {
         IDGenerator++;
